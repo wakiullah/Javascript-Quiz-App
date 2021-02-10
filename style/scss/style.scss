@@ -1,0 +1,55 @@
+$text-color:white;
+body {
+    background-color: rgb(255, 156, 145);
+}
+
+.quiz {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    & .quistion {
+        & h3 {
+            background-color: brown;
+            color: $text-color;
+            padding: 8px 20px;
+        }
+        & ul {
+            & li {
+                background-color: rgb(17, 0, 95);
+                margin-top: 15px;
+                color: $text-color;
+                padding: 6px 40px;
+                cursor: pointer
+            }
+        }
+    }
+    & form {
+        & label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        & input {
+            width: 400px;
+            outline: none;
+        }
+    }
+}
+
+button {
+    width: 200px;
+    display: block !important;
+    text-align: center;
+}
+
+.active {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: all;
+}
+
+.inactive {
+    opacity: 0;
+    transform: translate(-50%);
+    pointer-events: none;
+}

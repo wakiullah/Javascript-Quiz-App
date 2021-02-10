@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz App</title>
+    <link rel="stylesheet" href="./style/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./style/scss/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <div class="title">
+                    <h1>JAVASCRIPT QUIZ APP</h1>
+                </div>
+            </div>
+        </div>
+        <section class="quiz first-form active">
+            <div class="alert alert-danger d-none text-capitalize"></div>
+            <form action="">
+
+                <label for="">Enter Your Name:</label>
+                <input class='name' type="text" name="" id="">
+                <label for="">Enter your Email:</label>
+                <input type="email" name="" id="email">
+                <button type="submit" class="mx-auto mt-4 btn btn-primary capitalize">participate</button>
+            </form>
+        </section>
+        <section class="quiz quiz-1 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">What is javascript?</h3>
+                        <ul class="list-unstyled">
+                            <li class="wrong">1/ Hypertext markup language</li>
+                            <li class="wrong">2/ A script language </li>
+                            <li class="wrong">3/ Not a programming language</li>
+                            <li class="right">4/ programming language</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz quiz-2 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">How do you write "Hello World" in an alert box?</h3>
+                        <ul class="list-unstyled">
+                            <li class="wrong">1/ alertBox("Hello World");</li>
+                            <li class="wrong">2/ msgBox("Hello World");</li>
+                            <li class="right">3/ alert("Hello World");</li>
+                            <li class="wrong">4/ msg("Hello World"); </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz quiz-3 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">How to write an IF statement in JavaScript?</h3>
+                        <ul class="list-unstyled">
+                            <li class="right">1/ if (i == 5)</li>
+                            <li class="wrong">2/ if i == 5 then</li>
+                            <li class="wrong">3/ if i = 5 </li>
+                            <li class="wrong">4/ if i = 5 then</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz quiz-4 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">How does a FOR loop start?</h3>
+                        <ul class="list-unstyled">
+                            <li class="wrong">1/ for i = 1 to 5</li>
+                            <li class="wrong">2/ for (i
+                                <=5 ; i++)</li>
+                                    <li class="wrong">3/ for (i
+                                        <=5 ; i++) </li>
+                                            <li class="right">4/ for (i = 0; i
+                                                <=5 ; i++)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz quiz-5 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">What is the correct way to write a JavaScript array?</h3>
+                        <ul class="list-unstyled">
+                            <li class="wrong">1/ var colors = "red", "green", "blue"</li>
+                            <li class="wrong">2/ var colors = (1:"red", 2:"green", 3:"blue")</li>
+                            <li class="right">3/ var colors = ["red", "green", "blue"] </li>
+                            <li class="wrong">4/ var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quiz quiz-6 inactive">
+            <div class="row">
+                <div class="col">
+                    <div class="quistion">
+                        <h3 class="text-center">Which event occurs when the user clicks on an HTML element?</h3>
+                        <ul class="list-unstyled">
+
+                            <li class="wrong">1/ onchange</li>
+                            <li class="right">2/ onclick</li>
+                            <li class="wrong">3/ onmouseover </li>
+                            <li class="wrong">4/ onmouseclick</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-light quiz text-capitalize inactive text-center">
+            <h2>Congratulations! <span class="user-name"></span></h2>
+            <h3>thanks for your participate</h3>
+            <hr>
+            <h1>inspiration by saidur rahman setu vai</h1>
+            <p>Pray for me setu vaiya</p>
+            <button class="mx-auto button mt-3 mb-3 btn btn-primary try-again">Try Again</button>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

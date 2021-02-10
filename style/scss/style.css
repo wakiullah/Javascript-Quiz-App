@@ -1,0 +1,56 @@
+body {
+  background-color: #ff9c91;
+}
+
+.quiz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.quiz .quistion h3 {
+  background-color: brown;
+  color: white;
+  padding: 8px 20px;
+}
+
+.quiz .quistion ul li {
+  background-color: #11005f;
+  margin-top: 15px;
+  color: white;
+  padding: 6px 40px;
+  cursor: pointer;
+}
+
+.quiz form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.quiz form input {
+  width: 400px;
+  outline: none;
+}
+
+button {
+  width: 200px;
+  display: block !important;
+  text-align: center;
+}
+
+.active {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  pointer-events: all;
+}
+
+.inactive {
+  opacity: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */
